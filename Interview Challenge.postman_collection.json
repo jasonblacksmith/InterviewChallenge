@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "a5a7d13d-8f7d-46d9-90c0-321ddf70d85a",
+		"name": "Interview Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://si-interview-api.azurewebsites.net/api/Information/Challenge",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/Information/Challenge",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Information",
+						"Challenge"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"WeatherForecast",
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"date\": \"2022-03-11T04:50:49.046Z\",\r\n  \"temperatureC\": 10,\r\n  \"summary\": \"string\",\r\n  \"location\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"WeatherForecast",
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\":0,\r\n  \"date\": \"2022-03-11T05:21:31.694Z\",\r\n  \"temperatureC\": 0,\r\n  \"summary\": \"string\",\r\n  \"location\": \"string\"\r\n}"
+				},
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"WeatherForecast",
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast/Brazil",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast/Brazil",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"WeatherForecast",
+						"WeatherForecast",
+						"Brazil"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast/637825710798870098",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://si-interview-api.azurewebsites.net/api/WeatherForecast/WeatherForecast/637825710798870098",
+					"protocol": "https",
+					"host": [
+						"si-interview-api",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"WeatherForecast",
+						"WeatherForecast",
+						"637825710798870098"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -3,12 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RestSharp.Extensions;
-using RestSharp.Authenticators;
-using RestSharp.Serializers;
 using RestSharp;
 using NUnit.Framework;
-using System.Diagnostics;
 
 namespace InterviewChallenge_JRW.QA.APITests
 {
